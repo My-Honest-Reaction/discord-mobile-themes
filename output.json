@@ -1,0 +1,77 @@
+{
+    ":root": {
+        "--main-color": "#cfbdcd",
+        "--hover-color": "#000000",
+        "--success-color": "#43b581",
+        "--danger-color": "#982929",
+        "--online-color": "#43b581",
+        "--idle-color": "#faa61a",
+        "--dnd-color": "#982929",
+        "--streaming-color": "#593695",
+        "--offline-color": "#808080",
+        "--background-shading-percent": "30%",
+        "--background-image": "url(https://i.imgur.com/u6pTWRp.jpeg)",
+        "--background-position": "center",
+        "--background-size": "cover",
+        "--background-attachment": "fixed",
+        "--background-filter": "saturate(calc(var(--saturation-factor, 1) * 1))",
+        "--user-popout-image": "var(--background-image)",
+        "--user-popout-position": "var(--background-position)",
+        "--user-popout-size": "var(--background-size)",
+        "--user-popout-attachment": "var(--background-attachment)",
+        "--user-popout-filter": "var(--background-filter)",
+        "--user-modal-image": "var(--background-image)",
+        "--user-modal-position": "var(--background-position)",
+        "--user-modal-size": "var(--background-size)",
+        "--user-modal-attachment": "var(--background-attachment)",
+        "--user-modal-filter": "var(--background-filter)",
+        "---home-icon---":"url(https://clearvision.github.io/icons/discord.svg)", 
+		"--home-size":"cover", 
+		"--main-font":"\"gg sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif", 
+		"--code-font":"Consolas, \"gg mono\", \"Liberation Mono\", Menlo, Courier, monospace",  
+		"--channel-normal":"var(--interactive-normal)",  
+		"--channel-muted":"var(--interactive-muted)",  
+		"--channel-hover":"var(--interactive-hover)",  
+		"--channel-selected":"var(--interactive-active)",  
+		"--channel-selected-bg":"var(--main-color)",  
+		"--channel-unread":"var(--main-color)",  
+	    "---channel-unread-hover---":" var (--hover - color ) ", 
+	    "---focus - color--- ":" var ( -- main - color ) "
+    },
+    ".theme-light,.theme-dark .theme-light":{
+      "---background-shading--- ":" rgba ( 252 , 252 , 252 , 0.3 ) ",
+      "---card-shading--- ":" rgba ( 152 , 64 , 234 , 0.3 ) ",
+      "---popout-shading--- ":" rgba ( 152 , 64 , 234 , 0.7 ) ",
+      "---modal-shading--- ":" rgba ( 152 , 64 , 234 , 0.5 ) ",
+      "---input-shading--- ":" rgba (0,0,0,0.3) ", 
+	  "---normal-text---" :"#9840EA", 
+	  ---muted-text---:"#000000"
+   },
+   ".theme-dark,.theme-light .theme-dark":{
+     --- background - shading : rgba(0,0,0,0.4),
+     --- card - shading :rgba(0,0,0,0.2), 
+     --- popout - shading:rgba(0,0,0,.6), 
+     --- modal - shading:rgba(0,,,.4), 
+     --- input - shading:rgba(255,,255,.05), 
+     -- normal-text:#d8d8db,
+     -- muted-text:#aeaeb4
+   },
+   ".theme-darker,.theme-light .theme-darker":{
+       -- background - shading:rgba(00,,.,06)
+       -- card - shading:rgba(00,,.,03)
+       -- popout - shading:rgba(00,,.,07)
+       -- modal - shading:rgba(00,,.,05)
+       -- input - shading:rgba(152,,64,)
+	   ----normal-text----:"#984EAA"
+	   ----muted-text----:"#94949c"
+   },
+   ".theme-midnight,.theme-light .theme-midnight":{
+       -- background - shading : rgba (00,,,08)
+       -- card - shading : rgba (00,,,04)
+       -- popout - shading : rgba (00,,,08)
+       -- modal - shading : rgba (00,,,06)
+       -- input - shading : rgba (255,,,05)
+	   ----normal-text----:"#dcdcde"
+	   ----muted-text----:"#86868e"
+   }
+}
